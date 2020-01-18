@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.635" unitdist="mm" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="mm" altunit="mm"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="16" fill="1" visible="no" active="no"/>
 <layer number="3" name="Route3" color="17" fill="1" visible="no" active="no"/>
 <layer number="4" name="Route4" color="18" fill="1" visible="no" active="no"/>
@@ -23,43 +23,43 @@
 <layer number="13" name="Route13" color="21" fill="1" visible="no" active="no"/>
 <layer number="14" name="Route14" color="22" fill="1" visible="no" active="no"/>
 <layer number="15" name="Route15" color="23" fill="1" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
-<layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
-<layer number="32" name="bCream" color="7" fill="5" visible="no" active="yes"/>
-<layer number="33" name="tFinish" color="6" fill="3" visible="no" active="yes"/>
-<layer number="34" name="bFinish" color="6" fill="6" visible="no" active="yes"/>
-<layer number="35" name="tGlue" color="7" fill="4" visible="no" active="yes"/>
-<layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
-<layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
-<layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
+<layer number="31" name="tCream" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="32" name="bCream" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="33" name="tFinish" color="6" fill="3" visible="yes" active="yes"/>
+<layer number="34" name="bFinish" color="6" fill="6" visible="yes" active="yes"/>
+<layer number="35" name="tGlue" color="7" fill="4" visible="yes" active="yes"/>
+<layer number="36" name="bGlue" color="7" fill="5" visible="yes" active="yes"/>
+<layer number="37" name="tTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="38" name="bTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
-<layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="46" name="Milling" color="3" fill="1" visible="yes" active="yes"/>
+<layer number="47" name="Measures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -80,86 +80,86 @@
 <layer number="98" name="Guide" color="6" fill="1" visible="no" active="no"/>
 <layer number="99" name="SpiceOrder" color="7" fill="1" visible="no" active="no"/>
 <layer number="100" name="Muster" color="7" fill="1" visible="no" active="no"/>
-<layer number="101" name="Patch_Top" color="12" fill="4" visible="no" active="yes"/>
-<layer number="102" name="Vscore" color="7" fill="1" visible="no" active="yes"/>
-<layer number="103" name="tMap" color="7" fill="1" visible="no" active="yes"/>
-<layer number="104" name="Name" color="16" fill="1" visible="no" active="yes"/>
-<layer number="105" name="tPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="106" name="bPlate" color="7" fill="1" visible="no" active="yes"/>
-<layer number="107" name="Crop" color="7" fill="1" visible="no" active="yes"/>
-<layer number="108" name="tplace-old" color="10" fill="1" visible="no" active="yes"/>
-<layer number="109" name="ref-old" color="11" fill="1" visible="no" active="yes"/>
-<layer number="110" name="fp0" color="7" fill="1" visible="no" active="yes"/>
-<layer number="111" name="LPC17xx" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="113" name="IDFDebug" color="4" fill="1" visible="no" active="yes"/>
-<layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
-<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
-<layer number="116" name="Patch_BOT" color="9" fill="4" visible="no" active="yes"/>
-<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="118" name="Rect_Pads" color="7" fill="1" visible="no" active="yes"/>
-<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="no" active="yes"/>
-<layer number="120" name="Descript" color="7" fill="1" visible="no" active="yes"/>
-<layer number="121" name="_tsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="122" name="_bsilk" color="7" fill="1" visible="no" active="yes"/>
-<layer number="123" name="tTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="124" name="bTestmark" color="7" fill="1" visible="no" active="yes"/>
-<layer number="125" name="_tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="126" name="_bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="127" name="_tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="128" name="_bValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="129" name="Mask" color="7" fill="1" visible="no" active="yes"/>
-<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="no" active="yes"/>
-<layer number="131" name="tAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="132" name="bAdjust" color="7" fill="1" visible="no" active="yes"/>
-<layer number="133" name="mtFinish" color="7" fill="1" visible="no" active="yes"/>
-<layer number="134" name="mbFinish" color="7" fill="1" visible="no" active="yes"/>
-<layer number="135" name="mtGlue" color="7" fill="1" visible="no" active="yes"/>
-<layer number="136" name="mbGlue" color="7" fill="1" visible="no" active="yes"/>
-<layer number="137" name="mtTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="138" name="mbTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="139" name="mtKeepout" color="7" fill="1" visible="no" active="yes"/>
-<layer number="140" name="mbKeepout" color="7" fill="1" visible="no" active="yes"/>
-<layer number="141" name="mtRestrict" color="7" fill="1" visible="no" active="yes"/>
-<layer number="142" name="mbRestrict" color="7" fill="1" visible="no" active="yes"/>
-<layer number="143" name="mvRestrict" color="7" fill="1" visible="no" active="yes"/>
-<layer number="144" name="Drill_legend" color="7" fill="1" visible="no" active="yes"/>
-<layer number="145" name="mHoles" color="7" fill="1" visible="no" active="yes"/>
-<layer number="146" name="mMilling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="147" name="mMeasures" color="7" fill="1" visible="no" active="yes"/>
-<layer number="148" name="mDocument" color="7" fill="1" visible="no" active="yes"/>
-<layer number="149" name="mReference" color="7" fill="1" visible="no" active="yes"/>
-<layer number="150" name="Notes" color="7" fill="1" visible="no" active="yes"/>
-<layer number="151" name="HeatSink" color="7" fill="1" visible="no" active="yes"/>
-<layer number="152" name="_bDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="153" name="FabDoc1" color="7" fill="1" visible="no" active="yes"/>
-<layer number="154" name="FabDoc2" color="7" fill="1" visible="no" active="yes"/>
-<layer number="155" name="FabDoc3" color="7" fill="1" visible="no" active="yes"/>
-<layer number="160" name="O_Dim" color="7" fill="1" visible="no" active="yes"/>
-<layer number="191" name="mNets" color="7" fill="1" visible="no" active="yes"/>
-<layer number="192" name="mBusses" color="7" fill="1" visible="no" active="yes"/>
-<layer number="193" name="mPins" color="7" fill="1" visible="no" active="yes"/>
-<layer number="194" name="mSymbols" color="7" fill="1" visible="no" active="yes"/>
-<layer number="195" name="mNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="196" name="mValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="199" name="Contour" color="7" fill="1" visible="no" active="yes"/>
-<layer number="200" name="200bmp" color="1" fill="10" visible="no" active="yes"/>
-<layer number="201" name="201bmp" color="2" fill="10" visible="no" active="yes"/>
-<layer number="202" name="202bmp" color="3" fill="10" visible="no" active="yes"/>
-<layer number="203" name="203bmp" color="4" fill="10" visible="no" active="yes"/>
-<layer number="204" name="204bmp" color="5" fill="10" visible="no" active="yes"/>
-<layer number="205" name="205bmp" color="6" fill="10" visible="no" active="yes"/>
-<layer number="206" name="206bmp" color="7" fill="10" visible="no" active="yes"/>
-<layer number="207" name="207bmp" color="8" fill="10" visible="no" active="yes"/>
-<layer number="208" name="208bmp" color="9" fill="10" visible="no" active="yes"/>
-<layer number="209" name="209bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="210" name="210bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="211" name="211bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="212" name="212bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="213" name="213bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="214" name="214bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="215" name="215bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="216" name="216bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="101" name="Patch_Top" color="12" fill="4" visible="yes" active="yes"/>
+<layer number="102" name="Vscore" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="103" name="tMap" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="104" name="Name" color="16" fill="1" visible="yes" active="yes"/>
+<layer number="105" name="tPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="106" name="bPlate" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="107" name="Crop" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="108" name="tplace-old" color="10" fill="1" visible="yes" active="yes"/>
+<layer number="109" name="ref-old" color="11" fill="1" visible="yes" active="yes"/>
+<layer number="110" name="fp0" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="111" name="LPC17xx" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="113" name="IDFDebug" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="114" name="Badge_Outline" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="116" name="Patch_BOT" color="9" fill="4" visible="yes" active="yes"/>
+<layer number="117" name="BACKMAAT1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="118" name="Rect_Pads" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="119" name="KAP_TEKEN" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="120" name="Descript" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="121" name="_tsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="122" name="_bsilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="123" name="tTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="124" name="bTestmark" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="125" name="_tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="126" name="_bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="127" name="_tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="128" name="_bValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="129" name="Mask" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="130" name="SMDSTROOK" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="131" name="tAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="132" name="bAdjust" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="133" name="mtFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="134" name="mbFinish" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="135" name="mtGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="136" name="mbGlue" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="137" name="mtTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="138" name="mbTest" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="139" name="mtKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="140" name="mbKeepout" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="141" name="mtRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="142" name="mbRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="143" name="mvRestrict" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="144" name="Drill_legend" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="145" name="mHoles" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="146" name="mMilling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="147" name="mMeasures" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="148" name="mDocument" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="149" name="mReference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="150" name="Notes" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="151" name="HeatSink" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="152" name="_bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="153" name="FabDoc1" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="154" name="FabDoc2" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="155" name="FabDoc3" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="160" name="O_Dim" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="191" name="mNets" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="192" name="mBusses" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="193" name="mPins" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="194" name="mSymbols" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="195" name="mNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="196" name="mValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="199" name="Contour" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="200" name="200bmp" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="201" name="201bmp" color="2" fill="10" visible="yes" active="yes"/>
+<layer number="202" name="202bmp" color="3" fill="10" visible="yes" active="yes"/>
+<layer number="203" name="203bmp" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="204" name="204bmp" color="5" fill="10" visible="yes" active="yes"/>
+<layer number="205" name="205bmp" color="6" fill="10" visible="yes" active="yes"/>
+<layer number="206" name="206bmp" color="7" fill="10" visible="yes" active="yes"/>
+<layer number="207" name="207bmp" color="8" fill="10" visible="yes" active="yes"/>
+<layer number="208" name="208bmp" color="9" fill="10" visible="yes" active="yes"/>
+<layer number="209" name="209bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="210" name="210bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="211" name="211bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="212" name="212bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="213" name="213bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="214" name="214bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="215" name="215bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="216" name="216bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="217" name="217bmp" color="18" fill="1" visible="no" active="no"/>
 <layer number="218" name="218bmp" color="19" fill="1" visible="no" active="no"/>
 <layer number="219" name="219bmp" color="20" fill="1" visible="no" active="no"/>
@@ -168,21 +168,21 @@
 <layer number="222" name="222bmp" color="23" fill="1" visible="no" active="no"/>
 <layer number="223" name="223bmp" color="24" fill="1" visible="no" active="no"/>
 <layer number="224" name="224bmp" color="25" fill="1" visible="no" active="no"/>
-<layer number="225" name="225bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="226" name="226bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="227" name="227bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="228" name="228bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="229" name="229bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="230" name="230bmp" color="7" fill="1" visible="no" active="yes"/>
-<layer number="231" name="231bmp" color="7" fill="1" visible="no" active="yes"/>
+<layer number="225" name="225bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="226" name="226bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="227" name="227bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="228" name="228bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="229" name="229bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="230" name="230bmp" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="231" name="231bmp" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="232" name="Eagle3D_PG2" color="7" fill="1" visible="no" active="no"/>
 <layer number="233" name="Eagle3D_PG3" color="7" fill="1" visible="no" active="no"/>
-<layer number="248" name="Housing" color="7" fill="1" visible="no" active="yes"/>
-<layer number="249" name="Edge" color="7" fill="1" visible="no" active="yes"/>
+<layer number="248" name="Housing" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="249" name="Edge" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="250" name="Descript" color="3" fill="1" visible="no" active="no"/>
 <layer number="251" name="SMDround" color="12" fill="11" visible="no" active="no"/>
-<layer number="254" name="cooling" color="7" fill="1" visible="no" active="yes"/>
-<layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
+<layer number="254" name="cooling" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="255" name="routoute" color="7" fill="1" visible="yes" active="yes"/>
 </layers>
 <board>
 <plain>
@@ -345,41 +345,6 @@ FPGA: ICE40LP384</text>
 <wire x1="-1.9115" y1="-0.9955" x2="-1.9115" y2="0.9955" width="0.127" layer="21"/>
 <wire x1="-1" y1="0.4" x2="-1" y2="-0.4" width="0.127" layer="51" curve="-180"/>
 <wire x1="1" y1="-0.4" x2="1" y2="0.4" width="0.127" layer="51" curve="-180"/>
-</package>
-</packages>
-</library>
-<library name="Connectors &gt; USB">
-<packages>
-<package name="USB-C">
-<smd name="A6" x="-0.25" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B7" x="-0.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A5" x="-1.25" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A8" x="-1.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A7" x="0.25" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B6" x="0.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B8" x="1.27" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B5" x="1.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A4/B9" x="-2.4" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="A1/B12" x="-3.2" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="B4/A9" x="2.4" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="B1/A12" x="3.2" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<hole x="-2.89" y="6.026" drill="0.65"/>
-<hole x="2.89" y="6.026" drill="0.65"/>
-<wire x1="-4.191" y1="-0.254" x2="4.175" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-4.175" y1="6.858" x2="4.175" y2="6.858" width="0.127" layer="21"/>
-<wire x1="-4.191" y1="6.858" x2="-4.191" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="4.191" y1="-0.254" x2="4.191" y2="6.858" width="0.127" layer="21"/>
-<text x="3.81" y="8.636" size="0.8" layer="21" font="vector" ratio="15" rot="R180">&gt;NAME</text>
-<wire x1="-5.207" y1="0.00695" x2="5.207" y2="0.00695" width="0" layer="51"/>
-<text x="-4.331046875" y="-0.017390625" size="0.125" layer="51" rot="R180">pcb edge</text>
-<pad name="SHIELD0" x="-4.32" y="6.526" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<pad name="SHIELD3" x="4.32" y="6.526" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<pad name="SHIELD1" x="-4.32" y="2.346" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<pad name="SHIELD2" x="4.32" y="2.346" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<wire x1="4.32" y1="2.871" x2="4.32" y2="1.821" width="0.65" layer="46"/>
-<wire x1="-4.32" y1="7.051" x2="-4.32" y2="6.001" width="0.65" layer="46"/>
-<wire x1="4.32" y1="7.051" x2="4.32" y2="6.001" width="0.65" layer="46"/>
-<wire x1="-4.32" y1="1.821" x2="-4.32" y2="2.871" width="0.65" layer="46"/>
 </package>
 </packages>
 </library>
@@ -1383,6 +1348,96 @@ FPGA: ICE40LP384</text>
 </package>
 </packages>
 </library>
+<library name="Connectors &gt; USB">
+<packages>
+<package name="USB-C-16P-SMD-FLAT-SIDE-TYPE-2">
+<description>Package for eBay connector &lt;a href="https://www.ebay.com/itm/10Pcs-USB-3-1-Type-C-Female-16Pin-4-Legs-SMT-Charging-Port-PCB-Socket-Connector/173108999862?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2057872.m2749.l2649"&gt;from this seller&lt;/a&gt;&lt;br&gt;
+Package for LCSC connector C319148</description>
+<text x="-5.06" y="5.325" size="0.3048" layer="51">PCB Edge</text>
+<wire x1="-3.4" y1="4.965" x2="-2.7" y2="4.665" width="0.08" layer="51"/>
+<wire x1="-2.7" y1="4.665" x2="-2.8" y2="4.865" width="0.08" layer="51"/>
+<wire x1="-2.7" y1="4.665" x2="-2.9" y2="4.565" width="0.08" layer="51"/>
+<smd name="B7" x="5" y="0.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<hole x="3.68" y="2.89" drill="0.65"/>
+<hole x="3.68" y="-2.89" drill="0.65"/>
+<wire x1="-2.6" y1="5.207" x2="-2.6" y2="4.32" width="0" layer="51"/>
+<text x="-1.778" y="5.588" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-6.858" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A6" x="5" y="0.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A5" x="5" y="1.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B8" x="5" y="1.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A8" x="5" y="-1.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B5" x="5" y="-1.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B6" x="5" y="-0.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A7" x="5" y="-0.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B4/A9" x="5" y="-2.4" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="B1/A12" x="5" y="-3.2" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="A1/B12" x="5" y="3.2" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="A4/B9" x="5" y="2.4" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<pad name="SHIELD@1" x="4.18" y="4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="3.30128125" y="4.288040625" curve="-96.114783"/>
+<vertex x="3.599575" y="4.62"/>
+<vertex x="4.73" y="4.62" curve="-90"/>
+<vertex x="5.03" y="4.32" curve="-90"/>
+<vertex x="4.73" y="4.02"/>
+<vertex x="3.599575" y="4.02" curve="-83.884624"/>
+</polygon>
+<pad name="SHIELD@2" x="4.18" y="-4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="3.30128125" y="-4.411959375" curve="-96.114783"/>
+<vertex x="3.599575" y="-4.02"/>
+<vertex x="4.73" y="-4.02" curve="-90"/>
+<vertex x="5.03" y="-4.38" curve="-90"/>
+<vertex x="4.73" y="-4.62"/>
+<vertex x="3.599575" y="-4.62" curve="-83.884624"/>
+</polygon>
+<pad name="SHIELD@3" x="0" y="-4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="0.6" y="-4.32" curve="90"/>
+<vertex x="0.3" y="-4.02"/>
+<vertex x="-0.3" y="-4.02" curve="90"/>
+<vertex x="-0.6" y="-4.32" curve="90"/>
+<vertex x="-0.3" y="-4.62"/>
+<vertex x="0.3" y="-4.62" curve="90"/>
+</polygon>
+<pad name="SHIELD@0" x="0" y="4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="0.6" y="4.28" curve="90"/>
+<vertex x="0.3" y="4.62"/>
+<vertex x="-0.3" y="4.62" curve="90"/>
+<vertex x="-0.6" y="4.28" curve="90"/>
+<vertex x="-0.3" y="4.02"/>
+<vertex x="0.3" y="4.02" curve="90"/>
+</polygon>
+<wire x1="-2.6" y1="-4.32" x2="-2.6" y2="-5.207" width="0" layer="51"/>
+<wire x1="-2.6" y1="-4.32" x2="4.99" y2="-4.32" width="0.127" layer="51"/>
+<wire x1="4.99" y1="-4.32" x2="4.99" y2="4.32" width="0.127" layer="51"/>
+<wire x1="4.99" y1="4.32" x2="-2.6" y2="4.32" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="4.32" x2="-2.6" y2="-4.32" width="0.127" layer="51"/>
+<rectangle x1="4.73" y1="3.25" x2="4.99" y2="3.45" layer="51"/>
+<rectangle x1="4.73" y1="2.95" x2="4.99" y2="3.15" layer="51"/>
+<rectangle x1="4.73" y1="2.45" x2="4.99" y2="2.65" layer="51"/>
+<rectangle x1="4.73" y1="2.15" x2="4.99" y2="2.35" layer="51"/>
+<rectangle x1="4.73" y1="1.65" x2="4.99" y2="1.85" layer="51"/>
+<rectangle x1="4.73" y1="1.15" x2="4.99" y2="1.35" layer="51"/>
+<rectangle x1="4.73" y1="0.65" x2="4.99" y2="0.85" layer="51"/>
+<rectangle x1="4.73" y1="0.15" x2="4.99" y2="0.35" layer="51"/>
+<rectangle x1="4.73" y1="-0.35" x2="4.99" y2="-0.15" layer="51"/>
+<rectangle x1="4.73" y1="-0.85" x2="4.99" y2="-0.65" layer="51"/>
+<rectangle x1="4.73" y1="-1.35" x2="4.99" y2="-1.15" layer="51"/>
+<rectangle x1="4.73" y1="-1.85" x2="4.99" y2="-1.65" layer="51"/>
+<rectangle x1="4.73" y1="-2.35" x2="4.99" y2="-2.15" layer="51"/>
+<rectangle x1="4.73" y1="-2.65" x2="4.99" y2="-2.45" layer="51"/>
+<rectangle x1="4.73" y1="-3.45" x2="4.99" y2="-3.25" layer="51"/>
+<rectangle x1="4.73" y1="-3.15" x2="4.99" y2="-2.95" layer="51"/>
+<wire x1="-2.3" y1="-4.32" x2="-1.3" y2="-4.32" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-4.32" x2="2.8" y2="-4.32" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="4.32" x2="-1.3" y2="4.32" width="0.127" layer="21"/>
+<wire x1="1.3" y1="4.32" x2="2.8" y2="4.32" width="0.127" layer="21"/>
+</package>
+</packages>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1572,207 +1627,208 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="53.97" y="24.15" smashed="yes" rot="R135">
-<attribute name="NAME" x="54.931971875" y="25.161971875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="C1" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="53.97" y="24.15" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="54.931971875" y="25.161971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="C10" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="470p" x="18.94" y="32.72" smashed="yes" rot="R90">
-<attribute name="NAME" x="18.92" y="35.48" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<element name="C10" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="470p" x="18.94" y="32.72" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="18.92" y="35.48" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C11" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="20.45" y="23.2" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.08" y="23.2" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="C11" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="20.45" y="23.2" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.08" y="23.2" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C12" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="31.775" y="12.575" smashed="yes" rot="R315">
-<attribute name="NAME" x="29.983025" y="14.503025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="C12" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="31.775" y="12.575" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="29.983025" y="14.503025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="C13" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="470p" x="17.24" y="32.7" smashed="yes" rot="R90">
-<attribute name="NAME" x="17.24" y="35.41" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<element name="C13" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="470p" x="17.24" y="32.7" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="17.24" y="35.41" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C14" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="15.84" y="23.19" smashed="yes">
-<attribute name="NAME" x="13.24" y="23.18" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="C14" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="15.84" y="23.19" locked="yes" smashed="yes">
+<attribute name="NAME" x="13.24" y="23.18" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C15" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="12.19" y="25.84" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.495" y="25.865" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="C15" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="12.19" y="25.84" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.495" y="25.865" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C16" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="1u" x="12.16" y="27.66" smashed="yes" rot="R180">
-<attribute name="NAME" x="9.5" y="27.62" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="C16" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="1u" x="12.16" y="27.66" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="9.5" y="27.62" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="C17" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="30.31" y="21.78" smashed="yes" rot="R135">
-<attribute name="NAME" x="29.411971875" y="20.881971875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="C17" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="30.31" y="21.78" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="29.411971875" y="20.881971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="C18" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="30.703" y="26.585" smashed="yes" rot="R225">
-<attribute name="NAME" x="29.801025" y="27.546971875" size="0.8" layer="25" font="vector" ratio="12" rot="R225" align="center"/>
+<element name="C18" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="30.703" y="26.585" locked="yes" smashed="yes" rot="R225">
+<attribute name="NAME" x="29.801025" y="27.546971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R225" align="center"/>
 </element>
-<element name="C19" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="32.895" y="13.695" smashed="yes" rot="R315">
-<attribute name="NAME" x="31.053025" y="15.533025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="C19" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="32.895" y="13.695" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="31.053025" y="15.533025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="C2" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="57.975" y="13.46" smashed="yes" rot="R315">
-<attribute name="NAME" x="59.663025" y="11.818025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="C2" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="57.975" y="13.46" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="59.663025" y="11.818025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="C20" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="43.25" y="13.51" smashed="yes" rot="R315">
-<attribute name="NAME" x="42.288025" y="12.568025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="C20" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="43.25" y="13.51" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="42.288025" y="12.568025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="C21" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="43.97" y="22.72" smashed="yes" rot="R315">
-<attribute name="NAME" x="45.728025" y="23.178025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="C21" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="43.97" y="22.72" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="45.728025" y="23.178025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="C22" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="41.137" y="27.151" smashed="yes" rot="R45">
-<attribute name="NAME" x="40.238971875" y="28.049025" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
+<element name="C22" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="41.137" y="27.151" locked="yes" smashed="yes" rot="R45">
+<attribute name="NAME" x="40.238971875" y="28.049025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
 </element>
-<element name="C23" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="31.643" y="24.137" smashed="yes" rot="R135">
-<attribute name="NAME" x="30.764971875" y="23.248971875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="C23" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="31.643" y="24.137" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="30.764971875" y="23.248971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="C24" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="35.295" y="6.39" smashed="yes" rot="R90">
-<attribute name="NAME" x="34.025" y="6.39" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<element name="C24" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="35.295" y="6.39" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="34.025" y="6.39" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="C25" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="37.905" y="32.59" smashed="yes">
-<attribute name="NAME" x="37.905" y="33.86" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="C25" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="37.905" y="32.59" locked="yes" smashed="yes">
+<attribute name="NAME" x="37.905" y="33.86" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C3" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="52.265" y="15.58" smashed="yes" rot="R225">
-<attribute name="NAME" x="53.163025" y="14.681971875" size="0.8" layer="25" font="vector" ratio="12" rot="R225" align="center"/>
+<element name="C3" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="52.265" y="15.58" locked="yes" smashed="yes" rot="R225">
+<attribute name="NAME" x="53.163025" y="14.681971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R225" align="center"/>
 </element>
-<element name="C4" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="52.63" y="22.85" smashed="yes" rot="R135">
-<attribute name="NAME" x="51.731971875" y="21.951971875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="C4" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="52.63" y="22.85" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="51.731971875" y="21.951971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="C5" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="60.795" y="21.46" smashed="yes" rot="R45">
-<attribute name="NAME" x="62.466971875" y="23.038025" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
+<element name="C5" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="60.795" y="21.46" locked="yes" smashed="yes" rot="R45">
+<attribute name="NAME" x="62.466971875" y="23.038025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
 </element>
-<element name="C6" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="61.775" y="17.27" smashed="yes" rot="R315">
-<attribute name="NAME" x="63.463025" y="15.648025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="C6" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="61.775" y="17.27" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="63.463025" y="15.648025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="C7" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="59.595" y="22.65" smashed="yes" rot="R45">
-<attribute name="NAME" x="61.246971875" y="24.218025" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
+<element name="C7" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="100n" x="59.595" y="22.65" locked="yes" smashed="yes" rot="R45">
+<attribute name="NAME" x="61.246971875" y="24.218025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
 </element>
-<element name="C8" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="24.18" y="27.63" smashed="yes">
-<attribute name="NAME" x="26.44" y="27.64" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="C8" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="10u" x="24.18" y="27.63" locked="yes" smashed="yes">
+<attribute name="NAME" x="26.44" y="27.64" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="C9" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="1u" x="24.18" y="25.92" smashed="yes">
-<attribute name="NAME" x="26.44" y="25.92" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="C9" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="1u" x="24.18" y="25.92" locked="yes" smashed="yes">
+<attribute name="NAME" x="26.44" y="25.92" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="D1" library="Opto-electronics &gt; LED Emitters" package="2020" value="SK9822" x="37.905" y="30.45" smashed="yes" rot="R180">
-<attribute name="NAME" x="35.635" y="31.34" size="0.8" layer="21" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="D1" library="Opto-electronics &gt; LED Emitters" package="2020" value="SK9822" x="37.905" y="30.45" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="35.635" y="31.34" locked="yes" size="0.8" layer="21" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="D2" library="Semiconductors &gt; Discrete Semiconductors &gt; Diodes &amp; Rectifiers &gt; Schottky Diodes &amp; Rectifiers" package="SOD-123" value="B0530W" x="59" y="24.525" smashed="yes" rot="R45">
-<attribute name="NAME" x="57.915075" y="25.4742875" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
-<attribute name="VALUE" x="59.13010625" y="22.83925625" size="0.8" layer="27" font="vector" ratio="12" rot="R45" align="center"/>
+<element name="D2" library="Semiconductors &gt; Discrete Semiconductors &gt; Diodes &amp; Rectifiers &gt; Schottky Diodes &amp; Rectifiers" package="SOD-123" value="B0530W" x="59" y="24.525" locked="yes" smashed="yes" rot="R45">
+<attribute name="NAME" x="57.915075" y="25.4742875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
+<attribute name="VALUE" x="59.13010625" y="22.83925625" locked="yes" size="0.8" layer="27" font="vector" ratio="12" rot="R45" align="center"/>
 </element>
-<element name="D3" library="Circuit Protection &gt; ESD Suppressors \ TVS Diodes" package="SOT143" value="SP0503BAHT" x="11.305" y="18.39" smashed="yes">
-<attribute name="NAME" x="10.035" y="15.85" size="0.8" layer="21" font="vector" ratio="15"/>
+<element name="D3" library="Circuit Protection &gt; ESD Suppressors \ TVS Diodes" package="SOT143" value="SP0503BAHT" x="11.305" y="18.39" locked="yes" smashed="yes">
+<attribute name="NAME" x="10.035" y="15.85" locked="yes" size="0.8" layer="21" font="vector" ratio="15"/>
 </element>
-<element name="F1" library="Circuit Protection &gt; Resettable Fuses - PPTC" package="0805" value="100mA" x="6.13" y="26.155" smashed="yes" rot="R180">
-<attribute name="NAME" x="4.8532" y="27.9038" size="0.8" layer="25" font="vector" ratio="12" rot="SR0" align="center"/>
-<attribute name="VALUE" x="9.6606" y="29.7174" size="0.8" layer="27" font="vector" ratio="12" rot="SR180" align="center"/>
+<element name="F1" library="Circuit Protection &gt; Resettable Fuses - PPTC" package="0805" value="100mA" x="6.13" y="26.155" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="4.8532" y="27.9038" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="SR0" align="center"/>
+<attribute name="VALUE" x="9.6606" y="29.7174" locked="yes" size="0.8" layer="27" font="vector" ratio="12" rot="SR180" align="center"/>
 </element>
-<element name="J1" library="Connectors &gt; USB" package="USB-C" value="USB-C" x="0" y="19.05" smashed="yes" rot="R270">
-<attribute name="NAME" x="8.976" y="14.23" size="0.8" layer="21" font="vector" ratio="15" rot="R90"/>
+<element name="J2" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="60.96" y="38.1" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="64" y="38.42" locked="yes" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J2" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="60.96" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="64" y="38.42" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
+<element name="J3" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="40.64" y="38.1" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.68" y="38.46" locked="yes" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J3" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="40.64" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.68" y="38.46" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
+<element name="J4" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="60.96" y="1.905" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="63.935" y="2.115" locked="yes" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J4" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="60.96" y="1.905" smashed="yes" rot="R180">
-<attribute name="NAME" x="63.935" y="2.115" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
+<element name="J5" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="40.64" y="1.905" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="43.695" y="2.215" locked="yes" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J5" library="Connectors &gt; Header" package="1X8_2.54" value="8" x="40.64" y="1.905" smashed="yes" rot="R180">
-<attribute name="NAME" x="43.695" y="2.215" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
+<element name="J6" library="Connectors &gt; Header" package="1X4_2.54" value="4" x="20.32" y="38.1" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.4" y="38.46" locked="yes" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J6" library="Connectors &gt; Header" package="1X4_2.54" value="4" x="20.32" y="38.1" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.4" y="38.46" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
+<element name="J7" library="Connectors &gt; Header" package="1X4_2.54" value="4" x="20.32" y="1.905" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="23.445" y="2.345" locked="yes" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
 </element>
-<element name="J7" library="Connectors &gt; Header" package="1X4_2.54" value="4" x="20.32" y="1.905" smashed="yes" rot="R180">
-<attribute name="NAME" x="23.445" y="2.345" size="0.8" layer="21" font="vector" ratio="15" rot="R180"/>
+<element name="L1" library="Passive Components &gt; Inductors, Chokes &amp; Coils" package="_0806" value="1u" x="20.08" y="25.3" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="22.7865" y="24.342" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="L1" library="Passive Components &gt; Inductors, Chokes &amp; Coils" package="_0806" value="1u" x="20.08" y="25.3" smashed="yes" rot="R180">
-<attribute name="NAME" x="22.7865" y="24.342" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="L2" library="Passive Components &gt; Inductors, Chokes &amp; Coils" package="_0806" value="1u" x="16.08" y="25.3" locked="yes" smashed="yes">
+<attribute name="NAME" x="13.4935" y="24.388" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="L2" library="Passive Components &gt; Inductors, Chokes &amp; Coils" package="_0806" value="1u" x="16.08" y="25.3" smashed="yes">
-<attribute name="NAME" x="13.4935" y="24.388" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="L3" library="Passive Components &gt; Inductors, Chokes &amp; Coils" package="_0806" value="4u7" x="33.446" y="25.388" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="32.2938625" y="28.1256625" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="L3" library="Passive Components &gt; Inductors, Chokes &amp; Coils" package="_0806" value="1u" x="33.446" y="25.388" smashed="yes" rot="R135">
-<attribute name="NAME" x="32.2938625" y="28.1256625" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="R10" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="14.58" y="28.8" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.02" y="29.74" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R10" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="14.58" y="28.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.02" y="29.74" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<element name="R11" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="26.395" y="32.71" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="26.395" y="35.43" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R11" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="26.395" y="32.71" smashed="yes" rot="R270">
-<attribute name="NAME" x="26.395" y="35.43" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<element name="R12" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="274k" x="14.77" y="31.9" locked="yes" smashed="yes">
+<attribute name="NAME" x="14.79" y="36.11" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R12" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="274k" x="14.77" y="31.9" smashed="yes">
-<attribute name="NAME" x="14.79" y="36.11" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="R13" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="294k" x="14.75" y="33.64" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="14.81" y="35.02" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R13" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="294k" x="14.75" y="33.64" smashed="yes" rot="R180">
-<attribute name="NAME" x="14.81" y="35.02" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="R14" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="24.49" y="32.71" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="24.5" y="35.42" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R14" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="24.49" y="32.71" smashed="yes" rot="R270">
-<attribute name="NAME" x="24.5" y="35.42" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<element name="R15" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="5k11" x="5.61" y="10.865" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="6.88" y="10.865" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R15" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="5k11" x="5.61" y="10.865" smashed="yes" rot="R90">
-<attribute name="NAME" x="6.88" y="10.865" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<element name="R16" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="5k11" x="3.96" y="10.885" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="2.69" y="10.885" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
 </element>
-<element name="R16" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="5k11" x="3.96" y="10.885" smashed="yes" rot="R90">
-<attribute name="NAME" x="2.69" y="10.885" size="0.8" layer="25" font="vector" ratio="12" rot="R90" align="center"/>
+<element name="R17" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="46.54" y="6.37" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="47.81" y="6.37" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R17" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="46.54" y="6.37" smashed="yes" rot="R270">
-<attribute name="NAME" x="47.81" y="6.37" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<element name="R18" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="22" x="16.315" y="17.61" locked="yes" smashed="yes">
+<attribute name="NAME" x="16.345" y="16.28" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R18" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="22" x="16.315" y="17.61" smashed="yes">
-<attribute name="NAME" x="16.345" y="16.28" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="R19" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="22" x="16.325" y="19.19" locked="yes" smashed="yes">
+<attribute name="NAME" x="16.325" y="20.46" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R19" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="22" x="16.325" y="19.19" smashed="yes">
-<attribute name="NAME" x="16.325" y="20.46" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="R5" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="2k2" x="60.525" y="16" locked="yes" smashed="yes" rot="R315">
+<attribute name="NAME" x="62.223025" y="14.308025" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
 </element>
-<element name="R5" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="2k2" x="60.525" y="16" smashed="yes" rot="R315">
-<attribute name="NAME" x="62.223025" y="14.308025" size="0.8" layer="25" font="vector" ratio="12" rot="R315" align="center"/>
+<element name="R7" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="21.58" y="28.8" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="23.295" y="29.28" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R7" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="100k" x="21.58" y="28.8" smashed="yes" rot="R270">
-<attribute name="NAME" x="23.295" y="29.28" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="R8" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="309k" x="21.42" y="31.91" locked="yes" smashed="yes">
+<attribute name="NAME" x="21.28" y="35.97" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="R8" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="309k" x="21.42" y="31.91" smashed="yes">
-<attribute name="NAME" x="21.28" y="35.97" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="R9" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="71k5" x="21.41" y="33.61" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="21.3" y="34.9" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="R9" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="71k5" x="21.41" y="33.61" smashed="yes" rot="R180">
-<attribute name="NAME" x="21.3" y="34.9" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="SW1" library="Eletromechanical &gt; Switches &gt; Tactile Switches" package="PUSH_BUTTON" value="" x="15.24" y="9.525" locked="yes" smashed="yes" rot="R180">
+<attribute name="NAME" x="12.319" y="6.237" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="16.129" y="11.557" locked="yes" size="0.4064" layer="27" rot="R180"/>
 </element>
-<element name="SW1" library="Eletromechanical &gt; Switches &gt; Tactile Switches" package="PUSH_BUTTON" value="" x="15.24" y="9.525" smashed="yes" rot="R180">
-<attribute name="NAME" x="12.319" y="6.237" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
-<attribute name="VALUE" x="16.129" y="11.557" size="0.4064" layer="27" rot="R180"/>
+<element name="U1" library="Semiconductors &gt; Embedded Processors &amp; Controllers &gt; Microcontrollers - MCU" package="QFN64" value="EFM32GG12B8XX_QFN64" x="38.06" y="19.05" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="45.5369875" y="20.238290625" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="U1" library="Semiconductors &gt; Embedded Processors &amp; Controllers &gt; Microcontrollers - MCU" package="QFN64" value="EFM32GG12B8XX_QFN64" x="38.06" y="19.05" smashed="yes" rot="R135">
-<attribute name="NAME" x="45.5369875" y="20.238290625" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="U2" library="Semiconductors &gt; Embedded Processors &amp; Controllers &gt; FPGA - Field Programmable Gate Array" package="QFN32" value="ICE40LP384-SG32" x="56.045" y="19.1" locked="yes" smashed="yes" rot="R45">
+<attribute name="NAME" x="51.824278125" y="19.728615625" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
 </element>
-<element name="U2" library="Semiconductors &gt; Embedded Processors &amp; Controllers &gt; FPGA - Field Programmable Gate Array" package="QFN32" value="ICE40LP384-SG32" x="56.045" y="19.1" smashed="yes" rot="R45">
-<attribute name="NAME" x="51.824278125" y="19.728615625" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
+<element name="U3" library="Power &gt; Switching Controllers" package="VQFN20" value="MIC23159" x="18.08" y="28.8" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="23.325" y="30.51" locked="yes" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
 </element>
-<element name="U3" library="Power &gt; Switching Controllers" package="VQFN20" value="MIC23159" x="18.08" y="28.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="23.325" y="30.51" size="0.8" layer="25" font="vector" ratio="12" align="center"/>
+<element name="X1" library="Passive Components &gt; Frequency Control &amp; Timing Devices &gt; Crystals" package="4-SMD-3225" value="" x="44.048" y="26.028" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="41.708" y="25.305896875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="X1" library="Passive Components &gt; Frequency Control &amp; Timing Devices &gt; Crystals" package="4-SMD-3225" value="" x="44.048" y="26.028" smashed="yes" rot="R135">
-<attribute name="NAME" x="41.708" y="25.305896875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="X2" library="Passive Components &gt; Frequency Control &amp; Timing Devices &gt; Crystals" package="2-SMD-3215" value="" x="46.271" y="15.772" locked="yes" smashed="yes" rot="R45">
+<attribute name="NAME" x="46.465434375" y="13.185853125" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
+<attribute name="VALUE" x="46.026340625" y="12.24495" locked="yes" size="0.8128" layer="27" ratio="10" rot="R45"/>
 </element>
-<element name="X2" library="Passive Components &gt; Frequency Control &amp; Timing Devices &gt; Crystals" package="2-SMD-3215" value="" x="46.271" y="15.772" smashed="yes" rot="R45">
-<attribute name="NAME" x="46.465434375" y="13.185853125" size="0.8" layer="25" font="vector" ratio="12" rot="R45" align="center"/>
-<attribute name="VALUE" x="46.026340625" y="12.24495" size="0.8128" layer="27" ratio="10" rot="R45"/>
+<element name="U6" library="Microchip" package="WSOIC8" value="SST26VF016B" x="40.845" y="7.49" locked="yes" smashed="yes" rot="R90">
+<attribute name="NAME" x="36.7175" y="10.665" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
+<attribute name="VALUE" x="43.7025" y="11.3" locked="yes" size="0.8" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
 </element>
-<element name="U6" library="Microchip" package="WSOIC8" value="SST26VF016B" x="40.845" y="7.49" smashed="yes" rot="R90">
-<attribute name="NAME" x="36.7175" y="10.665" size="0.8" layer="25" font="vector" ratio="12" rot="R180" align="center"/>
-<attribute name="VALUE" x="43.7025" y="11.3" size="0.8" layer="27" font="vector" ratio="12" rot="R180" align="center"/>
+<element name="R6" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="10k" x="59.255" y="14.73" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="60.946971875" y="13.021971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="R6" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="10k" x="59.255" y="14.73" smashed="yes" rot="R135">
-<attribute name="NAME" x="60.946971875" y="13.021971875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="TC1" library="Connectors &gt; Other" package="TC2050-IDC-NL" value="TC2050-IDC-NL" x="28.995" y="11.215" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="24.90105" y="11.794871875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<attribute name="VALUE" x="34.383153125" y="10.316971875" locked="yes" size="0.8" layer="27" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="TC1" library="Connectors &gt; Other" package="TC2050-IDC-NL" value="TC2050-IDC-NL" x="28.995" y="11.215" smashed="yes" rot="R135">
-<attribute name="NAME" x="24.90105" y="11.794871875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
-<attribute name="VALUE" x="34.383153125" y="10.316971875" size="0.8" layer="27" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="C26" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="35.247" y="26.531" locked="yes" smashed="yes" rot="R135">
+<attribute name="NAME" x="36.188971875" y="27.482971875" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
 </element>
-<element name="C26" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" package="0603_WAVE" value="4u7" x="35.247" y="26.531" smashed="yes" rot="R135">
-<attribute name="NAME" x="36.188971875" y="27.482971875" size="0.8" layer="25" font="vector" ratio="12" rot="R135" align="center"/>
+<element name="R1" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="10k" x="28.585" y="6.42" locked="yes" smashed="yes" rot="R270">
+<attribute name="NAME" x="29.855" y="6.42" locked="yes" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
 </element>
-<element name="R1" library="Passive Components &gt; Resistors &gt; Chip Resistors" package="0603_WAVE" value="10k" x="28.585" y="6.42" smashed="yes" rot="R270">
-<attribute name="NAME" x="29.855" y="6.42" size="0.8" layer="25" font="vector" ratio="12" rot="R270" align="center"/>
+<element name="U$1" library="Utility &gt; Silkscreen" package="GECKO_POLY" value="" x="51.435" y="29.845" locked="yes" smashed="yes" rot="R315"/>
+<element name="U$2" library="Utility &gt; Silkscreen" package="OSHW-LOGO-M" value="" x="5.715" y="31.75" locked="yes" smashed="yes"/>
+<element name="U$3" library="Utility &gt; Silkscreen" package="RAFAEL_SILVA_5MM_ALT_3" value="" x="50.8" y="8.255" locked="yes" smashed="yes"/>
+<element name="USB1" library="Connectors &gt; USB" package="USB-C-16P-SMD-FLAT-SIDE-TYPE-2" value="USB-C-16P-SMD-FLAT-SIDE-TYPE-2" x="2.54" y="19.685" locked="yes" smashed="yes">
+<attribute name="NAME" x="0.762" y="25.273" locked="yes" size="1.27" layer="25"/>
+<attribute name="VALUE" x="0.762" y="12.827" locked="yes" size="1.27" layer="27"/>
 </element>
-<element name="U$1" library="Utility &gt; Silkscreen" package="GECKO_POLY" value="" x="51.435" y="29.845" smashed="yes" rot="R315"/>
-<element name="U$2" library="Utility &gt; Silkscreen" package="OSHW-LOGO-M" value="" x="5.715" y="31.75" smashed="yes"/>
-<element name="U$3" library="Utility &gt; Silkscreen" package="RAFAEL_SILVA_5MM_ALT_3" value="" x="50.8" y="8.255" smashed="yes"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -1801,12 +1857,6 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <contactref element="C3" pad="P$2"/>
 <contactref element="C4" pad="P$2"/>
 <contactref element="C5" pad="P$2"/>
-<contactref element="J1" pad="SHIELD0"/>
-<contactref element="J1" pad="SHIELD1"/>
-<contactref element="J1" pad="SHIELD2"/>
-<contactref element="J1" pad="SHIELD3"/>
-<contactref element="J1" pad="A1/B12"/>
-<contactref element="J1" pad="B1/A12"/>
 <contactref element="R15" pad="P$1"/>
 <contactref element="R16" pad="P$1"/>
 <contactref element="D3" pad="1"/>
@@ -2039,7 +2089,7 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <via x="16.54" y="20.32" extent="1-16" drill="0.3"/>
 <via x="12.7" y="20.32" extent="1-16" drill="0.3"/>
 <via x="10.795" y="20.32" extent="1-16" drill="0.3"/>
-<via x="8.89" y="20.32" extent="1-16" drill="0.3"/>
+<via x="8.92" y="18.22" extent="1-16" drill="0.3"/>
 <via x="18.415" y="16.51" extent="1-16" drill="0.3"/>
 <via x="16.51" y="16.51" extent="1-16" drill="0.3"/>
 <via x="12.7" y="16.51" extent="1-16" drill="0.3"/>
@@ -2090,15 +2140,15 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <via x="1.27" y="27.94" extent="1-16" drill="0.3"/>
 <via x="1.27" y="26.035" extent="1-16" drill="0.3"/>
 <via x="3.175" y="26.035" extent="1-16" drill="0.3"/>
-<via x="5.08" y="24.13" extent="1-16" drill="0.3"/>
-<via x="1.27" y="22.225" extent="1-16" drill="0.3"/>
-<via x="3.175" y="22.225" extent="1-16" drill="0.3"/>
-<via x="3.175" y="20.32" extent="1-16" drill="0.3"/>
-<via x="1.27" y="20.32" extent="1-16" drill="0.3"/>
-<via x="1.27" y="18.415" extent="1-16" drill="0.3"/>
-<via x="3.175" y="18.415" extent="1-16" drill="0.3"/>
-<via x="3.175" y="16.51" extent="1-16" drill="0.3"/>
-<via x="1.27" y="16.51" extent="1-16" drill="0.3"/>
+<via x="5.08" y="24.765" extent="1-16" drill="0.3"/>
+<via x="1.27" y="22.86" extent="1-16" drill="0.3"/>
+<via x="3.175" y="22.86" extent="1-16" drill="0.3"/>
+<via x="3.175" y="20.955" extent="1-16" drill="0.3"/>
+<via x="1.27" y="20.955" extent="1-16" drill="0.3"/>
+<via x="1.27" y="19.05" extent="1-16" drill="0.3"/>
+<via x="3.175" y="19.05" extent="1-16" drill="0.3"/>
+<via x="3.175" y="17.145" extent="1-16" drill="0.3"/>
+<via x="1.27" y="17.145" extent="1-16" drill="0.3"/>
 <via x="6.985" y="12.7" extent="1-16" drill="0.3"/>
 <via x="1.27" y="12.7" extent="1-16" drill="0.3"/>
 <via x="1.27" y="10.795" extent="1-16" drill="0.3"/>
@@ -2148,6 +2198,12 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <via x="29.44" y="11.635" extent="1-16" drill="0.3"/>
 <via x="29.42" y="9.865" extent="1-16" drill="0.3"/>
 <via x="18.12" y="23.765" extent="1-16" drill="0.3"/>
+<contactref element="USB1" pad="A1/B12"/>
+<contactref element="USB1" pad="B1/A12"/>
+<contactref element="USB1" pad="SHIELD@2"/>
+<contactref element="USB1" pad="SHIELD@1"/>
+<contactref element="USB1" pad="SHIELD@0"/>
+<contactref element="USB1" pad="SHIELD@3"/>
 </signal>
 <signal name="3.3V">
 <contactref element="U1" pad="55"/>
@@ -2198,9 +2254,9 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <wire x1="35.72" y1="24.68" x2="35.828946875" y2="24.788946875" width="0.127" layer="1"/>
 <wire x1="35.828946875" y1="24.788946875" x2="35.828946875" y2="25.94905" width="0.4064" layer="1"/>
 <wire x1="34.276978125" y1="16.3276375" x2="32.94805" y2="14.998709375" width="0.254" layer="1"/>
-<wire x1="32.94805" y1="14.998709375" x2="32.31305" y2="14.363709375" width="0.254" layer="1"/>
+<wire x1="32.94805" y1="14.998709375" x2="31.04305" y2="13.093709375" width="0.254" layer="1"/>
 <wire x1="32.94805" y1="14.998709375" x2="32.299671875" y2="14.35033125" width="0.127" layer="1"/>
-<wire x1="32.31305" y1="14.363709375" x2="32.31305" y2="14.276946875" width="0.127" layer="1"/>
+<wire x1="31.04305" y1="13.093709375" x2="31.04305" y2="13.006946875" width="0.127" layer="1"/>
 <wire x1="37.515" y1="5.585" x2="35.313" y2="5.585" width="0.4064" layer="1"/>
 <wire x1="35.313" y1="5.585" x2="35.295" y2="5.567" width="0.127" layer="1"/>
 <wire x1="35.295" y1="5.567" x2="31.75" y2="5.567" width="0.4064" layer="1"/>
@@ -2314,6 +2370,7 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <wire x1="22.256" y1="31.91" x2="22.243" y2="31.91" width="0.4064" layer="1"/>
 <wire x1="24.49" y1="31.887" x2="23.496" y2="30.893" width="0.4064" layer="1"/>
 <wire x1="23.496" y1="30.893" x2="23.273" y2="30.893" width="0.4064" layer="1"/>
+<wire x1="31.04305" y1="13.006946875" x2="32.31305" y2="14.276946875" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SS">
 <contactref element="U1" pad="12"/>
@@ -3253,58 +3310,56 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <wire x1="59.53" y1="34.13" x2="59.53" y2="20.41570625" width="0.127" layer="16"/>
 </signal>
 <signal name="N$40">
-<contactref element="J1" pad="A4/B9"/>
-<contactref element="J1" pad="B4/A9"/>
 <contactref element="F1" pad="2"/>
-<wire x1="5.7665" y1="16.8785" x2="5.08" y2="17.565" width="0.4064" layer="1"/>
-<wire x1="7.276" y1="16.65" x2="6.47826875" y2="16.65" width="0.254" layer="1"/>
-<wire x1="6.47826875" y1="16.65" x2="6.24976875" y2="16.8785" width="0.254" layer="1"/>
-<wire x1="6.24976875" y1="16.8785" x2="5.7665" y2="16.8785" width="0.254" layer="1"/>
-<wire x1="5.08" y1="17.565" x2="5.08" y2="21.905" width="0.4064" layer="1"/>
-<wire x1="5.08" y1="21.905" x2="5.094365625" y2="21.919365625" width="0.254" layer="1"/>
-<wire x1="7.221634375" y1="21.504365625" x2="7.276" y2="21.45" width="0.127" layer="1"/>
-<wire x1="5.094365625" y1="21.919365625" x2="5.74223125" y2="21.2715" width="0.254" layer="1"/>
-<wire x1="5.74223125" y1="21.2715" x2="6.27976875" y2="21.2715" width="0.254" layer="1"/>
-<wire x1="6.27976875" y1="21.2715" x2="6.512634375" y2="21.504365625" width="0.254" layer="1"/>
-<wire x1="6.512634375" y1="21.504365625" x2="7.221634375" y2="21.504365625" width="0.254" layer="1"/>
-<wire x1="5.08" y1="21.905" x2="5.08" y2="21.92" width="0.4064" layer="1"/>
-<wire x1="5.08" y1="21.92" x2="4.375" y2="22.625" width="0.4064" layer="1"/>
-<wire x1="4.375" y1="22.625" x2="4.375" y2="25.225" width="0.4064" layer="1"/>
+<wire x1="5.7665" y1="17.5135" x2="5.08" y2="18.2" width="0.4064" layer="1"/>
+<wire x1="6.51976875" y1="17.5135" x2="6.74826875" y2="17.285" width="0.254" layer="1"/>
+<wire x1="6.51976875" y1="17.5135" x2="5.7665" y2="17.5135" width="0.254" layer="1"/>
+<wire x1="5.08" y1="18.2" x2="5.08" y2="22.54" width="0.4064" layer="1"/>
+<wire x1="5.08" y1="22.54" x2="5.094365625" y2="22.554365625" width="0.254" layer="1"/>
+<wire x1="5.094365625" y1="22.554365625" x2="5.74223125" y2="21.9065" width="0.254" layer="1"/>
+<wire x1="5.74223125" y1="21.9065" x2="6.59976875" y2="21.9065" width="0.254" layer="1"/>
+<wire x1="6.59976875" y1="21.9065" x2="6.832634375" y2="22.139365625" width="0.254" layer="1"/>
+<wire x1="6.832634375" y1="22.139365625" x2="7.221634375" y2="22.139365625" width="0.254" layer="1"/>
+<wire x1="5.08" y1="22.54" x2="5.08" y2="22.555" width="0.4064" layer="1"/>
+<wire x1="5.08" y1="22.555" x2="4.375" y2="23.26" width="0.4064" layer="1"/>
+<wire x1="4.375" y1="23.26" x2="4.375" y2="25.225" width="0.4064" layer="1"/>
 <wire x1="4.375" y1="25.225" x2="5.305" y2="26.155" width="0.4064" layer="1"/>
 <wire x1="5.305" y1="26.155" x2="5.1648" y2="26.155" width="0.127" layer="1"/>
+<contactref element="USB1" pad="B4/A9"/>
+<contactref element="USB1" pad="A4/B9"/>
+<wire x1="6.74826875" y1="17.285" x2="7.54" y2="17.285" width="0.254" layer="1"/>
+<wire x1="7.221634375" y1="22.139365625" x2="7.54" y2="22.085" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$41">
-<contactref element="J1" pad="B5"/>
 <contactref element="R15" pad="P$2"/>
 <wire x1="5.61" y1="11.688" x2="5.61" y2="11.787" width="0.127" layer="1"/>
 <wire x1="5.61" y1="11.787" x2="4.697" y2="12.7" width="0.127" layer="1"/>
 <via x="4.697" y="12.7" extent="1-16" drill="0.3"/>
-<wire x1="4.527" y1="16.577" x2="4.527" y2="12.87" width="0.127" layer="16"/>
+<wire x1="4.527" y1="17.212" x2="4.527" y2="12.87" width="0.127" layer="16"/>
 <wire x1="4.697" y1="12.7" x2="4.527" y2="12.87" width="0.127" layer="16"/>
-<wire x1="5.64" y1="17.69" x2="6.03" y2="17.69" width="0.127" layer="16"/>
-<wire x1="5.64" y1="17.69" x2="4.527" y2="16.577" width="0.127" layer="16"/>
-<via x="6.03" y="17.69" extent="1-16" drill="0.3"/>
-<wire x1="6.03" y1="17.69" x2="6.42" y2="17.3" width="0.127" layer="1"/>
-<wire x1="6.42" y1="17.3" x2="7.251" y2="17.3" width="0.127" layer="1"/>
+<wire x1="6.31" y1="18.995" x2="6.31" y2="20.405" width="0.127" layer="16"/>
+<wire x1="6.31" y1="18.995" x2="4.527" y2="17.212" width="0.127" layer="16"/>
+<via x="6.31" y="20.405" extent="1-16" drill="0.3"/>
+<contactref element="USB1" pad="B8"/>
+<wire x1="6.31" y1="20.405" x2="6.31" y2="20.915" width="0.1524" layer="1"/>
+<wire x1="6.83" y1="21.435" x2="7.54" y2="21.435" width="0.1524" layer="1"/>
+<wire x1="6.31" y1="20.915" x2="6.83" y2="21.435" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$42">
-<contactref element="J1" pad="A5"/>
 <contactref element="R16" pad="P$2"/>
-<wire x1="7.251" y1="20.3" x2="7.241" y2="20.31" width="0.127" layer="1"/>
-<wire x1="7.241" y1="20.31" x2="6.055" y2="20.31" width="0.127" layer="1"/>
-<wire x1="6.055" y1="20.31" x2="6.025" y2="20.34" width="0.127" layer="1"/>
-<via x="6.025" y="20.34" extent="1-16" drill="0.3"/>
-<wire x1="6.025" y1="20.34" x2="6.025" y2="18.55" width="0.127" layer="16"/>
-<wire x1="6.025" y1="18.55" x2="4.17" y2="16.695" width="0.127" layer="16"/>
-<wire x1="4.17" y1="16.695" x2="4.17" y2="12.87" width="0.127" layer="16"/>
+<via x="5.815" y="19.315" extent="1-16" drill="0.3"/>
+<wire x1="5.815" y1="19.315" x2="5.815" y2="18.975" width="0.127" layer="16"/>
+<wire x1="5.815" y1="18.975" x2="4.17" y2="17.33" width="0.127" layer="16"/>
+<wire x1="4.17" y1="17.33" x2="4.17" y2="12.87" width="0.127" layer="16"/>
 <wire x1="4.17" y1="12.87" x2="3.97" y2="12.67" width="0.127" layer="16"/>
 <via x="3.97" y="12.67" extent="1-16" drill="0.3"/>
 <wire x1="3.97" y1="12.67" x2="3.97" y2="11.718" width="0.127" layer="1"/>
 <wire x1="3.97" y1="11.718" x2="3.96" y2="11.708" width="0.127" layer="1"/>
+<contactref element="USB1" pad="A8"/>
+<wire x1="5.815" y1="19.315" x2="6.695" y2="18.435" width="0.1524" layer="1"/>
+<wire x1="6.695" y1="18.435" x2="7.54" y2="18.435" width="0.1524" layer="1"/>
 </signal>
 <signal name="USBDN">
-<contactref element="J1" pad="A7"/>
-<contactref element="J1" pad="B7"/>
 <contactref element="D3" pad="4"/>
 <contactref element="R19" pad="P$1"/>
 <wire x1="12.11" y1="18.275" x2="11.084" y2="19.301" width="0.127" layer="1"/>
@@ -3312,31 +3367,34 @@ These Design Rules have been set according to JLCPCB's capabilities for 2 layer 
 <wire x1="15.502" y1="19.19" x2="14.977" y2="19.19" width="0.127" layer="1"/>
 <wire x1="14.977" y1="19.19" x2="14.062" y2="18.275" width="0.127" layer="1"/>
 <wire x1="14.062" y1="18.275" x2="12.11" y2="18.275" width="0.127" layer="1"/>
-<wire x1="7.251" y1="18.8" x2="9.893" y2="18.8" width="0.127" layer="1"/>
-<wire x1="9.893" y1="18.8" x2="10.394" y2="19.301" width="0.127" layer="1"/>
-<wire x1="7.251" y1="19.8" x2="9.895" y2="19.8" width="0.127" layer="1"/>
-<wire x1="9.895" y1="19.8" x2="10.394" y2="19.301" width="0.127" layer="1"/>
+<contactref element="USB1" pad="A7"/>
+<contactref element="USB1" pad="B7"/>
+<wire x1="10.394" y1="19.301" x2="10.26" y2="19.435" width="0.1524" layer="1"/>
+<wire x1="10.26" y1="19.435" x2="7.54" y2="19.435" width="0.1524" layer="1"/>
+<wire x1="10.394" y1="19.301" x2="9.26" y2="20.435" width="0.1524" layer="1"/>
+<wire x1="9.26" y1="20.435" x2="7.54" y2="20.435" width="0.1524" layer="1"/>
 </signal>
 <signal name="USBDP">
-<contactref element="J1" pad="A6"/>
-<contactref element="J1" pad="B6"/>
 <contactref element="R18" pad="P$1"/>
-<wire x1="7.251" y1="18.3" x2="6.24" y2="18.3" width="0.127" layer="1"/>
-<wire x1="6.24" y1="18.3" x2="6.03" y2="18.51" width="0.127" layer="1"/>
-<wire x1="6.03" y1="18.51" x2="6.03" y2="19.06" width="0.127" layer="1"/>
-<wire x1="6.03" y1="19.06" x2="6.26" y2="19.29" width="0.127" layer="1"/>
-<wire x1="6.26" y1="19.29" x2="7.241" y2="19.29" width="0.127" layer="1"/>
-<wire x1="7.241" y1="19.29" x2="7.251" y2="19.3" width="0.127" layer="1"/>
 <contactref element="D3" pad="2"/>
 <wire x1="12.294" y1="17.501" x2="12.064" y2="17.501" width="0.127" layer="1"/>
-<wire x1="12.064" y1="17.501" x2="11.265" y2="18.3" width="0.127" layer="1"/>
-<wire x1="7.251" y1="18.3" x2="11.265" y2="18.3" width="0.127" layer="1"/>
+<wire x1="11.17" y1="18.395" x2="12.064" y2="17.501" width="0.127" layer="1"/>
 <wire x1="15.492" y1="17.61" x2="15.482" y2="17.6" width="0.127" layer="1"/>
 <wire x1="15.482" y1="17.6" x2="14.392" y2="17.6" width="0.127" layer="1"/>
 <wire x1="14.392" y1="17.6" x2="14.052" y2="17.94" width="0.127" layer="1"/>
 <wire x1="14.052" y1="17.94" x2="13.253" y2="17.94" width="0.127" layer="1"/>
 <wire x1="13.253" y1="17.94" x2="12.814" y2="17.501" width="0.127" layer="1"/>
 <wire x1="12.294" y1="17.501" x2="12.814" y2="17.501" width="0.127" layer="1"/>
+<contactref element="USB1" pad="A6"/>
+<contactref element="USB1" pad="B6"/>
+<wire x1="7.54" y1="19.935" x2="6.74" y2="19.935" width="0.1524" layer="1"/>
+<wire x1="6.74" y1="19.935" x2="6.48" y2="19.675" width="0.1524" layer="1"/>
+<wire x1="6.48" y1="19.675" x2="6.48" y2="19.14263125" width="0.1524" layer="1"/>
+<wire x1="6.48" y1="19.14263125" x2="6.68763125" y2="18.935" width="0.1524" layer="1"/>
+<wire x1="6.68763125" y1="18.935" x2="7.54" y2="18.935" width="0.1524" layer="1"/>
+<wire x1="7.54" y1="18.935" x2="9.31" y2="18.935" width="0.1524" layer="1"/>
+<wire x1="9.85" y1="18.395" x2="9.31" y2="18.935" width="0.1524" layer="1"/>
+<wire x1="11.17" y1="18.395" x2="9.85" y2="18.395" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$32">
 <contactref element="R7" pad="P$1"/>

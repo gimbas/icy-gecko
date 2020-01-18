@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.3.0">
+<eagle version="9.5.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1624,85 +1624,6 @@ temperature. Capacitance change is limited to ±15% from
 </deviceset>
 </devicesets>
 </library>
-<library name="Connectors &gt; USB">
-<packages>
-<package name="USB-C">
-<smd name="A6" x="-0.25" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B7" x="-0.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A5" x="-1.25" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A8" x="-1.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A7" x="0.25" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B6" x="0.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B8" x="1.27" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="B5" x="1.75" y="7.251" dx="1.45" dy="0.3" layer="1" rot="R90"/>
-<smd name="A4/B9" x="-2.4" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="A1/B12" x="-3.2" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="B4/A9" x="2.4" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<smd name="B1/A12" x="3.2" y="7.276" dx="1.4" dy="0.6" layer="1" rot="R90"/>
-<hole x="-2.89" y="6.026" drill="0.65"/>
-<hole x="2.89" y="6.026" drill="0.65"/>
-<wire x1="-4.191" y1="-0.254" x2="4.175" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="-4.175" y1="6.858" x2="4.175" y2="6.858" width="0.127" layer="21"/>
-<wire x1="-4.191" y1="6.858" x2="-4.191" y2="-0.254" width="0.127" layer="21"/>
-<wire x1="4.191" y1="-0.254" x2="4.191" y2="6.858" width="0.127" layer="21"/>
-<text x="3.81" y="8.636" size="0.8" layer="21" font="vector" ratio="15" rot="R180">&gt;NAME</text>
-<wire x1="-5.207" y1="0.00695" x2="5.207" y2="0.00695" width="0" layer="51"/>
-<text x="-4.331046875" y="-0.017390625" size="0.125" layer="51" rot="R180">pcb edge</text>
-<pad name="SHIELD0" x="-4.32" y="6.526" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<pad name="SHIELD3" x="4.32" y="6.526" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<pad name="SHIELD1" x="-4.32" y="2.346" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<pad name="SHIELD2" x="4.32" y="2.346" drill="0.65" diameter="1" shape="long" rot="R90"/>
-<wire x1="4.32" y1="2.871" x2="4.32" y2="1.821" width="0.65" layer="46"/>
-<wire x1="-4.32" y1="7.051" x2="-4.32" y2="6.001" width="0.65" layer="46"/>
-<wire x1="4.32" y1="7.051" x2="4.32" y2="6.001" width="0.65" layer="46"/>
-<wire x1="-4.32" y1="1.821" x2="-4.32" y2="2.871" width="0.65" layer="46"/>
-</package>
-</packages>
-<symbols>
-<symbol name="USB-C">
-<pin name="GND@A1,A12,B12,B1" x="-2.54" y="5.08" visible="pin" length="short"/>
-<pin name="CC1@A5" x="-2.54" y="12.7" visible="pin" length="short"/>
-<pin name="DP@A6,B6" x="-2.54" y="27.94" visible="pin" length="short"/>
-<pin name="DN@A7,B7" x="-2.54" y="25.4" visible="pin" length="short"/>
-<pin name="SBU1@A8" x="-2.54" y="20.32" visible="pin" length="short"/>
-<pin name="VBUS@A4,A9,B9,B4" x="-2.54" y="33.02" visible="pin" length="short"/>
-<wire x1="0" y1="35.56" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="12.7" y2="0" width="0.254" layer="94"/>
-<wire x1="12.7" y1="0" x2="12.7" y2="35.56" width="0.254" layer="94"/>
-<wire x1="12.7" y1="35.56" x2="0" y2="35.56" width="0.254" layer="94"/>
-<text x="0" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
-<text x="0" y="38.1" size="1.778" layer="95" align="top-left">&gt;NAME</text>
-<pin name="SBU2@B8" x="-2.54" y="17.78" visible="pin" length="short"/>
-<pin name="CC2@B5" x="-2.54" y="10.16" visible="pin" length="short"/>
-<pin name="SHIELD" x="-2.54" y="2.54" visible="pin" length="short"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="USB-C" prefix="J">
-<gates>
-<gate name="G$1" symbol="USB-C" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="USB-C">
-<connects>
-<connect gate="G$1" pin="CC1@A5" pad="A5"/>
-<connect gate="G$1" pin="CC2@B5" pad="B5"/>
-<connect gate="G$1" pin="DN@A7,B7" pad="A7 B7"/>
-<connect gate="G$1" pin="DP@A6,B6" pad="A6 B6"/>
-<connect gate="G$1" pin="GND@A1,A12,B12,B1" pad="A1/B12 B1/A12"/>
-<connect gate="G$1" pin="SBU1@A8" pad="A8"/>
-<connect gate="G$1" pin="SBU2@B8" pad="B8"/>
-<connect gate="G$1" pin="SHIELD" pad="SHIELD0 SHIELD1 SHIELD2 SHIELD3"/>
-<connect gate="G$1" pin="VBUS@A4,A9,B9,B4" pad="A4/B9 B4/A9"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="Circuit Protection &gt; Resettable Fuses - PPTC">
 <description>Resettable Fuses</description>
 <packages>
@@ -2911,6 +2832,250 @@ temperature. Capacitance change is limited to ±15% from
 </deviceset>
 </devicesets>
 </library>
+<library name="Connectors &gt; USB">
+<packages>
+<package name="USB-C-16P-SMD-FLAT-SIDE-TYPE-1">
+<description>Package for LCSC connector C167321</description>
+<text x="-5.06" y="5.325" size="0.3048" layer="51">PCB Edge</text>
+<wire x1="-3.4" y1="4.965" x2="-2.7" y2="4.665" width="0.08" layer="51"/>
+<wire x1="-2.7" y1="4.665" x2="-2.8" y2="4.865" width="0.08" layer="51"/>
+<wire x1="-2.7" y1="4.665" x2="-2.9" y2="4.565" width="0.08" layer="51"/>
+<smd name="B7" x="5" y="0.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<hole x="3.68" y="2.89" drill="0.65"/>
+<hole x="3.68" y="-2.89" drill="0.65"/>
+<wire x1="-2.6" y1="5.207" x2="-2.6" y2="4.32" width="0" layer="51"/>
+<text x="-1.778" y="5.588" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-6.858" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A6" x="5" y="0.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A5" x="5" y="1.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A8" x="5" y="1.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B8" x="5" y="-1.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B5" x="5" y="-1.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B6" x="5" y="-0.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A7" x="5" y="-0.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B4/A9" x="5" y="-2.4" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="B1/A12" x="5" y="-3.2" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="A1/B12" x="5" y="3.2" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="A4/B9" x="5" y="2.4" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<pad name="SHIELD@1" x="4.18" y="4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="3.30128125" y="4.288040625" curve="-96.114783"/>
+<vertex x="3.599575" y="4.62"/>
+<vertex x="4.73" y="4.62" curve="-90"/>
+<vertex x="5.03" y="4.32" curve="-90"/>
+<vertex x="4.73" y="4.02"/>
+<vertex x="3.599575" y="4.02" curve="-83.884624"/>
+</polygon>
+<pad name="SHIELD@2" x="4.18" y="-4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="3.30128125" y="-4.411959375" curve="-96.114783"/>
+<vertex x="3.599575" y="-4.02"/>
+<vertex x="4.73" y="-4.02" curve="-90"/>
+<vertex x="5.03" y="-4.38" curve="-90"/>
+<vertex x="4.73" y="-4.62"/>
+<vertex x="3.599575" y="-4.62" curve="-83.884624"/>
+</polygon>
+<pad name="SHIELD@3" x="0" y="-4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="0.6" y="-4.32" curve="90"/>
+<vertex x="0.3" y="-4.02"/>
+<vertex x="-0.3" y="-4.02" curve="90"/>
+<vertex x="-0.6" y="-4.32" curve="90"/>
+<vertex x="-0.3" y="-4.62"/>
+<vertex x="0.3" y="-4.62" curve="90"/>
+</polygon>
+<pad name="SHIELD@0" x="0" y="4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="0.6" y="4.28" curve="90"/>
+<vertex x="0.3" y="4.62"/>
+<vertex x="-0.3" y="4.62" curve="90"/>
+<vertex x="-0.6" y="4.28" curve="90"/>
+<vertex x="-0.3" y="4.02"/>
+<vertex x="0.3" y="4.02" curve="90"/>
+</polygon>
+<wire x1="-2.6" y1="-4.32" x2="-2.6" y2="-5.207" width="0" layer="51"/>
+<wire x1="-2.6" y1="-4.32" x2="4.99" y2="-4.32" width="0.127" layer="51"/>
+<wire x1="4.99" y1="-4.32" x2="4.99" y2="4.32" width="0.127" layer="51"/>
+<wire x1="4.99" y1="4.32" x2="-2.6" y2="4.32" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="4.32" x2="-2.6" y2="-4.32" width="0.127" layer="51"/>
+<rectangle x1="4.73" y1="3.25" x2="4.99" y2="3.45" layer="51"/>
+<rectangle x1="4.73" y1="2.95" x2="4.99" y2="3.15" layer="51"/>
+<rectangle x1="4.73" y1="2.45" x2="4.99" y2="2.65" layer="51"/>
+<rectangle x1="4.73" y1="2.15" x2="4.99" y2="2.35" layer="51"/>
+<rectangle x1="4.73" y1="1.65" x2="4.99" y2="1.85" layer="51"/>
+<rectangle x1="4.73" y1="1.15" x2="4.99" y2="1.35" layer="51"/>
+<rectangle x1="4.73" y1="0.65" x2="4.99" y2="0.85" layer="51"/>
+<rectangle x1="4.73" y1="0.15" x2="4.99" y2="0.35" layer="51"/>
+<rectangle x1="4.73" y1="-0.35" x2="4.99" y2="-0.15" layer="51"/>
+<rectangle x1="4.73" y1="-0.85" x2="4.99" y2="-0.65" layer="51"/>
+<rectangle x1="4.73" y1="-1.35" x2="4.99" y2="-1.15" layer="51"/>
+<rectangle x1="4.73" y1="-1.85" x2="4.99" y2="-1.65" layer="51"/>
+<rectangle x1="4.73" y1="-2.35" x2="4.99" y2="-2.15" layer="51"/>
+<rectangle x1="4.73" y1="-2.65" x2="4.99" y2="-2.45" layer="51"/>
+<rectangle x1="4.73" y1="-3.45" x2="4.99" y2="-3.25" layer="51"/>
+<rectangle x1="4.73" y1="-3.15" x2="4.99" y2="-2.95" layer="51"/>
+<wire x1="-2.3" y1="-4.32" x2="-1.3" y2="-4.32" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-4.32" x2="2.8" y2="-4.32" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="4.32" x2="-1.3" y2="4.32" width="0.127" layer="21"/>
+<wire x1="1.3" y1="4.32" x2="2.8" y2="4.32" width="0.127" layer="21"/>
+</package>
+<package name="USB-C-16P-SMD-FLAT-SIDE-TYPE-2">
+<description>Package for eBay connector &lt;a href="https://www.ebay.com/itm/10Pcs-USB-3-1-Type-C-Female-16Pin-4-Legs-SMT-Charging-Port-PCB-Socket-Connector/173108999862?ssPageName=STRK%3AMEBIDX%3AIT&amp;_trksid=p2057872.m2749.l2649"&gt;from this seller&lt;/a&gt;&lt;br&gt;
+Package for LCSC connector C319148</description>
+<text x="-5.06" y="5.325" size="0.3048" layer="51">PCB Edge</text>
+<wire x1="-3.4" y1="4.965" x2="-2.7" y2="4.665" width="0.08" layer="51"/>
+<wire x1="-2.7" y1="4.665" x2="-2.8" y2="4.865" width="0.08" layer="51"/>
+<wire x1="-2.7" y1="4.665" x2="-2.9" y2="4.565" width="0.08" layer="51"/>
+<smd name="B7" x="5" y="0.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<hole x="3.68" y="2.89" drill="0.65"/>
+<hole x="3.68" y="-2.89" drill="0.65"/>
+<wire x1="-2.6" y1="5.207" x2="-2.6" y2="4.32" width="0" layer="51"/>
+<text x="-1.778" y="5.588" size="1.27" layer="25">&gt;NAME</text>
+<text x="-1.778" y="-6.858" size="1.27" layer="27">&gt;VALUE</text>
+<smd name="A6" x="5" y="0.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A5" x="5" y="1.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B8" x="5" y="1.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A8" x="5" y="-1.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B5" x="5" y="-1.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B6" x="5" y="-0.75" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="A7" x="5" y="-0.25" dx="0.3" dy="1.25" layer="1" rot="R90"/>
+<smd name="B4/A9" x="5" y="-2.4" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="B1/A12" x="5" y="-3.2" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="A1/B12" x="5" y="3.2" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<smd name="A4/B9" x="5" y="2.4" dx="0.6" dy="1.25" layer="1" rot="R90"/>
+<pad name="SHIELD@1" x="4.18" y="4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="3.30128125" y="4.288040625" curve="-96.114783"/>
+<vertex x="3.599575" y="4.62"/>
+<vertex x="4.73" y="4.62" curve="-90"/>
+<vertex x="5.03" y="4.32" curve="-90"/>
+<vertex x="4.73" y="4.02"/>
+<vertex x="3.599575" y="4.02" curve="-83.884624"/>
+</polygon>
+<pad name="SHIELD@2" x="4.18" y="-4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="3.30128125" y="-4.411959375" curve="-96.114783"/>
+<vertex x="3.599575" y="-4.02"/>
+<vertex x="4.73" y="-4.02" curve="-90"/>
+<vertex x="5.03" y="-4.38" curve="-90"/>
+<vertex x="4.73" y="-4.62"/>
+<vertex x="3.599575" y="-4.62" curve="-83.884624"/>
+</polygon>
+<pad name="SHIELD@3" x="0" y="-4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="0.6" y="-4.32" curve="90"/>
+<vertex x="0.3" y="-4.02"/>
+<vertex x="-0.3" y="-4.02" curve="90"/>
+<vertex x="-0.6" y="-4.32" curve="90"/>
+<vertex x="-0.3" y="-4.62"/>
+<vertex x="0.3" y="-4.62" curve="90"/>
+</polygon>
+<pad name="SHIELD@0" x="0" y="4.32" drill="0.6" diameter="1" shape="long"/>
+<polygon width="0" layer="46">
+<vertex x="0.6" y="4.28" curve="90"/>
+<vertex x="0.3" y="4.62"/>
+<vertex x="-0.3" y="4.62" curve="90"/>
+<vertex x="-0.6" y="4.28" curve="90"/>
+<vertex x="-0.3" y="4.02"/>
+<vertex x="0.3" y="4.02" curve="90"/>
+</polygon>
+<wire x1="-2.6" y1="-4.32" x2="-2.6" y2="-5.207" width="0" layer="51"/>
+<wire x1="-2.6" y1="-4.32" x2="4.99" y2="-4.32" width="0.127" layer="51"/>
+<wire x1="4.99" y1="-4.32" x2="4.99" y2="4.32" width="0.127" layer="51"/>
+<wire x1="4.99" y1="4.32" x2="-2.6" y2="4.32" width="0.127" layer="51"/>
+<wire x1="-2.6" y1="4.32" x2="-2.6" y2="-4.32" width="0.127" layer="51"/>
+<rectangle x1="4.73" y1="3.25" x2="4.99" y2="3.45" layer="51"/>
+<rectangle x1="4.73" y1="2.95" x2="4.99" y2="3.15" layer="51"/>
+<rectangle x1="4.73" y1="2.45" x2="4.99" y2="2.65" layer="51"/>
+<rectangle x1="4.73" y1="2.15" x2="4.99" y2="2.35" layer="51"/>
+<rectangle x1="4.73" y1="1.65" x2="4.99" y2="1.85" layer="51"/>
+<rectangle x1="4.73" y1="1.15" x2="4.99" y2="1.35" layer="51"/>
+<rectangle x1="4.73" y1="0.65" x2="4.99" y2="0.85" layer="51"/>
+<rectangle x1="4.73" y1="0.15" x2="4.99" y2="0.35" layer="51"/>
+<rectangle x1="4.73" y1="-0.35" x2="4.99" y2="-0.15" layer="51"/>
+<rectangle x1="4.73" y1="-0.85" x2="4.99" y2="-0.65" layer="51"/>
+<rectangle x1="4.73" y1="-1.35" x2="4.99" y2="-1.15" layer="51"/>
+<rectangle x1="4.73" y1="-1.85" x2="4.99" y2="-1.65" layer="51"/>
+<rectangle x1="4.73" y1="-2.35" x2="4.99" y2="-2.15" layer="51"/>
+<rectangle x1="4.73" y1="-2.65" x2="4.99" y2="-2.45" layer="51"/>
+<rectangle x1="4.73" y1="-3.45" x2="4.99" y2="-3.25" layer="51"/>
+<rectangle x1="4.73" y1="-3.15" x2="4.99" y2="-2.95" layer="51"/>
+<wire x1="-2.3" y1="-4.32" x2="-1.3" y2="-4.32" width="0.127" layer="21"/>
+<wire x1="1.3" y1="-4.32" x2="2.8" y2="-4.32" width="0.127" layer="21"/>
+<wire x1="-2.3" y1="4.32" x2="-1.3" y2="4.32" width="0.127" layer="21"/>
+<wire x1="1.3" y1="4.32" x2="2.8" y2="4.32" width="0.127" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="USB-C-16P-4-SHIELD">
+<wire x1="-12.7" y1="-22.86" x2="0" y2="-22.86" width="0.254" layer="94"/>
+<wire x1="0" y1="-22.86" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<text x="-11.684" y="-11.43" size="2.54" layer="94" rot="R270" align="bottom-center">USB</text>
+<pin name="D+" x="2.54" y="-7.62" visible="pin" length="short" rot="R180"/>
+<pin name="D-" x="2.54" y="-5.08" visible="pin" length="short" rot="R180"/>
+<pin name="VBUS" x="2.54" y="-2.54" visible="pin" length="short" rot="R180"/>
+<pin name="GND" x="2.54" y="-20.32" visible="pin" length="short" rot="R180"/>
+<wire x1="-12.7" y1="-22.86" x2="-12.7" y2="0" width="0.254" layer="94"/>
+<pin name="SHIELD@1" x="-2.54" y="-25.4" visible="off" length="short" rot="R90"/>
+<pin name="SHIELD@0" x="-2.54" y="2.54" visible="off" length="short" rot="R270"/>
+<pin name="SHIELD@2" x="-5.08" y="-25.4" visible="off" length="short" rot="R90"/>
+<pin name="SHIELD@3" x="-5.08" y="2.54" visible="off" length="short" rot="R270"/>
+<pin name="CC1" x="2.54" y="-10.16" visible="pin" length="short" rot="R180"/>
+<pin name="CC2" x="2.54" y="-12.7" visible="pin" length="short" rot="R180"/>
+<pin name="SB1" x="2.54" y="-15.24" visible="pin" length="short" rot="R180"/>
+<pin name="SB2" x="2.54" y="-17.78" visible="pin" length="short" rot="R180"/>
+<text x="-14.224" y="-22.86" size="1.27" layer="95" rot="R90">&gt;NAME</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="USB-C-16P-SMD-FLAT-SIDE" prefix="USB">
+<gates>
+<gate name="G$1" symbol="USB-C-16P-4-SHIELD" x="0" y="0"/>
+</gates>
+<devices>
+<device name="-TYPE-1" package="USB-C-16P-SMD-FLAT-SIDE-TYPE-1">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+" pad="A6 B6"/>
+<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="GND" pad="A1/B12 B1/A12"/>
+<connect gate="G$1" pin="SB1" pad="A8"/>
+<connect gate="G$1" pin="SB2" pad="B8"/>
+<connect gate="G$1" pin="SHIELD@0" pad="SHIELD@0"/>
+<connect gate="G$1" pin="SHIELD@1" pad="SHIELD@1"/>
+<connect gate="G$1" pin="SHIELD@2" pad="SHIELD@2"/>
+<connect gate="G$1" pin="SHIELD@3" pad="SHIELD@3"/>
+<connect gate="G$1" pin="VBUS" pad="A4/B9 B4/A9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+<device name="-TYPE-2" package="USB-C-16P-SMD-FLAT-SIDE-TYPE-2">
+<connects>
+<connect gate="G$1" pin="CC1" pad="A5"/>
+<connect gate="G$1" pin="CC2" pad="B5"/>
+<connect gate="G$1" pin="D+" pad="A6 B6"/>
+<connect gate="G$1" pin="D-" pad="A7 B7"/>
+<connect gate="G$1" pin="GND" pad="A1/B12 B1/A12"/>
+<connect gate="G$1" pin="SB1" pad="A8"/>
+<connect gate="G$1" pin="SB2" pad="B8"/>
+<connect gate="G$1" pin="SHIELD@0" pad="SHIELD@0"/>
+<connect gate="G$1" pin="SHIELD@1" pad="SHIELD@1"/>
+<connect gate="G$1" pin="SHIELD@2" pad="SHIELD@2"/>
+<connect gate="G$1" pin="SHIELD@3" pad="SHIELD@3"/>
+<connect gate="G$1" pin="VBUS" pad="A4/B9 B4/A9"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 <attribute name="COMPANY" value="RST"/>
@@ -2940,7 +3105,7 @@ temperature. Capacitance change is limited to ±15% from
 <part name="C17" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" deviceset="MLCC" device="0603" value="4u7"/>
 <part name="GND1" library="Utility &gt; Power Symbols" deviceset="GND" device=""/>
 <part name="GND23" library="Utility &gt; Power Symbols" deviceset="GND" device=""/>
-<part name="L3" library="Passive Components &gt; Inductors, Chokes &amp; Coils" deviceset="INDUCTOR_NC" device="_0806" value="1u"/>
+<part name="L3" library="Passive Components &gt; Inductors, Chokes &amp; Coils" deviceset="INDUCTOR_NC" device="_0806" value="4u7"/>
 <part name="C18" library="Passive Components &gt; Capacitors &gt; Multilayer Ceramic Capacitors MLCC" deviceset="MLCC" device="0603" value="4u7"/>
 <part name="GND24" library="Utility &gt; Power Symbols" deviceset="GND" device=""/>
 <part name="SUPPLY1" library="Utility &gt; Power Symbols" deviceset="3.3V" device=""/>
@@ -2962,7 +3127,6 @@ temperature. Capacitance change is limited to ±15% from
 <part name="R17" library="Passive Components &gt; Resistors &gt; Chip Resistors" deviceset="RESISTOR" device="0603" value="100k"/>
 <part name="SUPPLY17" library="Utility &gt; Power Symbols" deviceset="3.3V" device=""/>
 <part name="GND31" library="Utility &gt; Power Symbols" deviceset="GND" device=""/>
-<part name="J1" library="Connectors &gt; USB" deviceset="USB-C" device=""/>
 <part name="SUPPLY2" library="Utility &gt; Power Symbols" deviceset="VUSB" device=""/>
 <part name="F1" library="Circuit Protection &gt; Resettable Fuses - PPTC" deviceset="PTC" device="0805" value="100mA"/>
 <part name="GND19" library="Utility &gt; Power Symbols" deviceset="GND" device=""/>
@@ -3086,6 +3250,8 @@ temperature. Capacitance change is limited to ±15% from
 <part name="SUPPLY21" library="Utility &gt; Power Symbols" deviceset="3.3V" device=""/>
 <part name="R1" library="Passive Components &gt; Resistors &gt; Chip Resistors" deviceset="RESISTOR" device="0603" value="10k"/>
 <part name="SUPPLY29" library="Utility &gt; Power Symbols" deviceset="3.3V" device=""/>
+<part name="USB1" library="Connectors &gt; USB" deviceset="USB-C-16P-SMD-FLAT-SIDE" device="-TYPE-2"/>
+<part name="GND40" library="Utility &gt; Power Symbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -4283,10 +4449,6 @@ temperature. Capacitance change is limited to ±15% from
 <plain>
 </plain>
 <instances>
-<instance part="J1" gate="G$1" x="91.44" y="114.3" smashed="yes" rot="MR0">
-<attribute name="VALUE" x="91.44" y="111.76" size="1.778" layer="96" rot="MR0"/>
-<attribute name="NAME" x="91.44" y="152.4" size="1.778" layer="95" rot="MR0" align="top-left"/>
-</instance>
 <instance part="SUPPLY2" gate="G$1" x="116.84" y="149.86" smashed="yes">
 <attribute name="VALUE" x="116.84" y="152.654" size="1.778" layer="96" align="bottom-center"/>
 </instance>
@@ -4343,9 +4505,9 @@ temperature. Capacitance change is limited to ±15% from
 <instance part="GND32" gate="1" x="297.18" y="119.38" smashed="yes">
 <attribute name="VALUE" x="297.18" y="119.126" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="R18" gate="G$1" x="124.46" y="142.24" smashed="yes">
-<attribute name="NAME" x="121.158" y="143.764" size="1.27" layer="95"/>
-<attribute name="VALUE" x="120.904" y="139.7" size="1.27" layer="96"/>
+<instance part="R18" gate="G$1" x="127" y="137.16" smashed="yes">
+<attribute name="NAME" x="123.698" y="138.684" size="1.27" layer="95"/>
+<attribute name="VALUE" x="123.444" y="134.62" size="1.27" layer="96"/>
 </instance>
 <instance part="R19" gate="G$1" x="134.62" y="139.7" smashed="yes">
 <attribute name="NAME" x="131.318" y="141.224" size="1.27" layer="95"/>
@@ -4507,20 +4669,31 @@ temperature. Capacitance change is limited to ±15% from
 <instance part="SUPPLY20" gate="G$1" x="271.78" y="134.62" smashed="yes">
 <attribute name="VALUE" x="271.78" y="137.414" size="1.778" layer="96" align="bottom-center"/>
 </instance>
+<instance part="USB1" gate="G$1" x="86.36" y="144.78" smashed="yes">
+<attribute name="NAME" x="72.136" y="121.92" size="1.27" layer="95" rot="R90"/>
+</instance>
+<instance part="GND40" gate="1" x="68.58" y="142.24" smashed="yes">
+<attribute name="VALUE" x="68.58" y="141.986" size="1.778" layer="96" align="top-center"/>
+</instance>
 </instances>
 <busses>
 </busses>
 <nets>
 <net name="GND" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="SHIELD"/>
-<wire x1="93.98" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="116.84" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="J1" gate="G$1" pin="GND@A1,A12,B12,B1"/>
-<wire x1="93.98" y1="119.38" x2="96.52" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="119.38" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="124.46" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
 <junction x="96.52" y="116.84"/>
 <pinref part="GND19" gate="1" pin="GND"/>
+<pinref part="USB1" gate="G$1" pin="GND"/>
+<wire x1="88.9" y1="124.46" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="SHIELD@2"/>
+<wire x1="81.28" y1="119.38" x2="81.28" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="116.84" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="USB1" gate="G$1" pin="SHIELD@1"/>
+<wire x1="83.82" y1="116.84" x2="96.52" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="119.38" x2="83.82" y2="116.84" width="0.1524" layer="91"/>
+<junction x="83.82" y="116.84"/>
 </segment>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
@@ -4572,6 +4745,17 @@ temperature. Capacitance change is limited to ±15% from
 <pinref part="J7" gate="-4" pin="S"/>
 <wire x1="162.56" y1="101.6" x2="162.56" y2="104.14" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="USB1" gate="G$1" pin="SHIELD@3"/>
+<pinref part="USB1" gate="G$1" pin="SHIELD@0"/>
+<wire x1="83.82" y1="147.32" x2="83.82" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="149.86" x2="81.28" y2="149.86" width="0.1524" layer="91"/>
+<junction x="81.28" y="149.86"/>
+<wire x1="81.28" y1="149.86" x2="81.28" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="81.28" y1="149.86" x2="68.58" y2="149.86" width="0.1524" layer="91"/>
+<wire x1="68.58" y1="149.86" x2="68.58" y2="144.78" width="0.1524" layer="91"/>
+<pinref part="GND40" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
@@ -4607,25 +4791,26 @@ temperature. Capacitance change is limited to ±15% from
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="VBUS@A4,A9,B9,B4"/>
-<wire x1="93.98" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="F1" gate="G$1" pin="2"/>
+<pinref part="USB1" gate="G$1" pin="VBUS"/>
+<wire x1="88.9" y1="142.24" x2="88.9" y2="147.32" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$41" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="CC2@B5"/>
-<wire x1="93.98" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="101.6" y1="124.46" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="127" x2="101.6" y2="127" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="127" x2="101.6" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R15" gate="G$1" pin="P$2"/>
+<pinref part="USB1" gate="G$1" pin="SB2"/>
 </segment>
 </net>
 <net name="N$42" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="CC1@A5"/>
-<wire x1="93.98" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
-<wire x1="109.22" y1="127" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="109.22" y1="129.54" x2="109.22" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R16" gate="G$1" pin="P$2"/>
+<pinref part="USB1" gate="G$1" pin="SB1"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -4656,8 +4841,8 @@ temperature. Capacitance change is limited to ±15% from
 </net>
 <net name="DP" class="0">
 <segment>
-<label x="142.24" y="142.24" size="0.889" layer="95" xref="yes"/>
-<wire x1="129.54" y1="142.24" x2="142.24" y2="142.24" width="0.1524" layer="91"/>
+<label x="142.24" y="137.16" size="0.889" layer="95" xref="yes"/>
+<wire x1="132.08" y1="137.16" x2="142.24" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="P$2"/>
 </segment>
 </net>
@@ -4670,24 +4855,24 @@ temperature. Capacitance change is limited to ±15% from
 </net>
 <net name="USBDN" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="DN@A7,B7"/>
-<wire x1="93.98" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="139.7" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="4"/>
 <wire x1="119.38" y1="124.46" x2="119.38" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="139.7" x2="129.54" y2="139.7" width="0.1524" layer="91"/>
 <junction x="119.38" y="139.7"/>
 <pinref part="R19" gate="G$1" pin="P$1"/>
+<pinref part="USB1" gate="G$1" pin="D-"/>
 </segment>
 </net>
 <net name="USBDP" class="0">
 <segment>
-<pinref part="J1" gate="G$1" pin="DP@A6,B6"/>
-<wire x1="93.98" y1="142.24" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="137.16" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="R18" gate="G$1" pin="P$1"/>
 <pinref part="D3" gate="G$1" pin="2"/>
-<wire x1="114.3" y1="142.24" x2="119.38" y2="142.24" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="124.46" x2="114.3" y2="142.24" width="0.1524" layer="91"/>
-<junction x="114.3" y="142.24"/>
+<wire x1="114.3" y1="137.16" x2="121.92" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="124.46" x2="114.3" y2="137.16" width="0.1524" layer="91"/>
+<junction x="114.3" y="137.16"/>
+<pinref part="USB1" gate="G$1" pin="D+"/>
 </segment>
 </net>
 <net name="1.2V" class="0">
